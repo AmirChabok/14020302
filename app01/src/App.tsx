@@ -1,12 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import  Logo  from './components/Logo'
-import { Counter } from './Counter'
 
 function App() {
-  const [showLogo, setshowLogo] = useState(true)
   const tasks = [
     { name: "task 1", id: 1, done: true },
     { name: "task 2", id: 2, done: false },
