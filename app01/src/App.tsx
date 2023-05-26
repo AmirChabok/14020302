@@ -15,19 +15,13 @@ function App() {
   ];
   return (
     <>
-    {/* {(showLogo)? (<Logo logo={reactLogo} />):(<Logo logo={viteLogo}/>)} */}
       <div className="card">
-       {/* <Counter  /> */}
-       {/* <button onClick={()=>setshowLogo(!showLogo)}>toggle logo</button> */}
-
        <ul>
       {tasks.map((m) => (
         <><li>{m.name}</li></>
       ))}
       </ul>
-      
       </div>
-   
     </>
   )
 }
